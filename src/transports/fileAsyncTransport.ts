@@ -47,7 +47,11 @@ const EXPOFSappend = async (FS: any, file: string, msg: string) => {
 
 const RNFSappend = async (FS: any, file: string, msg: string) => {
   try {
-    await FS.appendFile(file, msg, "utf8");
+    // await FS.appendFile(file, msg, "utf8");
+    //append at start of file
+    const currentLogs = await FS.readFile(file, "utf8")
+    const newLogs = msg + currentLogs
+    await FS.writeFile(newLogs, "utf8")
     return true;
   } catch (error) {
     console.error(error);

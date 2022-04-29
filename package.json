@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onubo/react-native-logs.git"
+    "url": "git+https://github.com/insysiv/react-native-logs.git"
   },
   "keywords": [
     "log",
@@ -33,9 +33,9 @@
   "author": "Alessandro Bottamedi - a.bottamedi@me.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onubo/react-native-logs/issues"
+    "url": "https://github.com/insysiv/react-native-logs.git/issues"
   },
-  "homepage": "https://github.com/onubo/react-native-logs#readme",
+  "homepage": "https://github.com/insysiv/react-native-logs.git#readme",
   "devDependencies": {
     "jest": "^27.4.5",
     "typescript": "^4.5.4"
